@@ -1,5 +1,5 @@
 // @ts-check
-/** @typedef { import("./types").Animal } Animal */
+/** @typedef { import("./types.js").Animal } Animal */
 
 /** @type {string} */
 let foo = "a"
@@ -32,6 +32,14 @@ function calculateDaysBetweenDates(begin, end) { }
 
 /** @type {Animal} */
 let dog = {
-    alive: true,
+    alive: "b",
     hp: 1
+}
+
+// in-source test suites
+if (import.meta.vitest) {
+    const { it, expect } = import.meta.vitest
+    it('dog is alive', () => {
+        expect(dog.alive).toBe(false)
+    })
 }
