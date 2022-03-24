@@ -9,6 +9,7 @@
     "test": "vitest",
     "check": "tsc",
     "lint": "eslint . --ext .js",
+    "build": "vite build -c vitest.config.js",
     "format": "prettier --write '**/*.{ts,js}'",
     "docs": "npm run clean:docs && typedoc --plugin typedoc-plugin-missing-exports --logLevel Error",
     "clean:docs": "rimraf docs",
@@ -30,6 +31,6 @@
     "typedoc-plugin-missing-exports": "^0.22.6",
     "typescript": "^4.6.2",
     "vite": "^2.8.6",
-    "vitest": "^0.6.1"
+    "vitest": "^0.7.10"
   }
 }

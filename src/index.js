@@ -14,6 +14,8 @@ let dog = {
   hp: 1,
 }
 
+export default dog
+
 // in-source test suites
 if (import.meta.vitest) {
   it('dog is alive', () => {

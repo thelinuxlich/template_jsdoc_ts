@@ -8,3 +8,5 @@ Steps:
 - npm run coverage
 - npm run lint
 - npm run format
+
+You can also optionally build the project with `npm run build` if you are developing a frontend or just want to remove the `import.meta.vitest` code
