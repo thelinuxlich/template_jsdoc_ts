@@ -9,4 +9,4 @@ Steps:
 - npm run lint
 - npm run format
 
-You can also optionally build the project with `npm run build` if you are developing a frontend or just want to remove the `import.meta.vitest` code
+You can also optionally build the project with `npm run build` if you are developing a frontend or just want to remove the `import.meta.vitest` code. You might want to customize `vitest.config.js` to your project then.
