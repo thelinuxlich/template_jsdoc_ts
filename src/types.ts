@@ -1,4 +1,4 @@
 export type Animal = {
-    hp: number,
-    alive: boolean
+  hp: number
+  alive: boolean
 }

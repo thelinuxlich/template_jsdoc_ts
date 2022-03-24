@@ -2,7 +2,9 @@ This repository showcases how you can have typechecking in JS files using Typesc
 
 Steps:
 
-* npm install
-* npm run docs
-* npm run test
-* npm run coverage
+- npm install
+- npm run docs
+- npm run test
+- npm run coverage
+- npm run lint
+- npm run format

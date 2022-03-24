@@ -2,43 +2,37 @@
 /** @typedef { import("./types.js").Animal } Animal */
 
 /** @type {string} */
-let foo = "a"
+let foo = 'a'
 
 /**
  *
  *
  * @param {Animal} foo
- * @param {*} bar
+ * @param {string} bar
+ * @returns {string}
  */
-let bar = (foo, bar) => "test"
+let bar = (foo, bar) => 'test'
 
 /**
  *
  *
- * @param {*} test
+ * @param {string} test
+ * @returns {number}
  */
-let biz = (test) => 123
-
+let biz = test => 123
 
 /** @type {string} */
-const b = "a"
-
-
-/**
- * @param {*} begin
- * @param {*} end
- */
-function calculateDaysBetweenDates(begin, end) { }
+const b = 'a'
 
 /** @type {Animal} */
 let dog = {
-    alive: "b",
-    hp: 1
+  alive: 'b',
+  hp: 1,
 }
 
 // in-source test suites
 if (import.meta.vitest) {
-    it('dog is alive', () => {
-        expect(dog.alive).toBe(false)
-    })
+  it('dog is alive', () => {
+    expect(dog.alive).toBe(false)
+  })
 }
