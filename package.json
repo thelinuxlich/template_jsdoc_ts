@@ -1,8 +1,8 @@
 {
-  "name": "test_jsdoc_ts",
+  "name": "template_jsdoc_ts",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A template for JSDOC typechecking with Typescript + docs + lint + format + coverage + test",
+  "main": "src/index.js",
   "type": "module",
   "types": "types.ts",
   "scripts": {
@@ -14,7 +14,7 @@
     "clean:docs": "rimraf docs",
     "coverage": "vitest run --coverage"
   },
-  "author": "",
+  "author": "thelinuxlich@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^17.0.21",
