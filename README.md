@@ -1,4 +1,4 @@
-This repository showcases how you can have typechecking in JS files using Typescript and also generates documentation, inline testing and coverage
+This repository showcases how you can have typechecking in JS files using Typescript and also generates documentation, inline testing, coverage and pre-commit hooks typechecking, linting and running the test suite + [conventional-commit](https://conventionalcommits.org/) messages
 
 Steps:
 
