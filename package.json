@@ -13,7 +13,8 @@
     "format": "prettier --write '**/*.{ts,js}'",
     "docs": "npm run clean:docs && typedoc --plugin typedoc-plugin-missing-exports --logLevel Error",
     "clean:docs": "rimraf docs",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "postinstall": "husky install"
   },
   "author": "thelinuxlich@gmail.com",
   "license": "ISC",
