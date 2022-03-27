@@ -7,14 +7,16 @@
   "types": "types.ts",
   "scripts": {
     "test": "vitest",
+    "test:once": "vitest run",
     "check": "tsc",
-    "lint": "eslint . --ext .js",
+    "lint": "eslint src/**/*.{js,ts}",
     "build": "vite build -c vitest.config.js",
     "format": "prettier --write '**/*.{ts,js}'",
     "docs": "npm run clean:docs && typedoc --plugin typedoc-plugin-missing-exports --logLevel Error",
     "clean:docs": "rimraf docs",
     "coverage": "vitest run --coverage",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "prepare": "husky install"
   },
   "author": "thelinuxlich@gmail.com",
   "license": "ISC",
@@ -28,7 +30,7 @@
     "eslint": "^8.11.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-jsdoc": "^38.0.6",
-    "husky": "^7.0.4",
+    "husky": "^7.0.0",
     "prettier": "^2.6.0",
     "rimraf": "^3.0.2",
     "typedoc": "^0.22.13",
