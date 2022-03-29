@@ -28,6 +28,7 @@ module.exports = {
     'jsdoc/require-property-description': 0,
     'jsdoc/require-returns-description': 0,
     'jsdoc/require-param-type': 1,
+    'jsdoc/no-undefined-types': 0,
     '@typescript-eslint/no-unsafe-member-access': 'off',
     '@typescript-eslint/no-unsafe-call': 'off',
   },

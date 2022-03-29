@@ -1,4 +1,8 @@
-export type Animal = {
-  hp: number
-  alive: boolean
+export {}
+
+declare global {
+  type Animal = {
+    hp: number
+    alive: boolean
+  }
 }

@@ -1,6 +1,4 @@
 // @ts-check
-/** @typedef { import("./types.js").Animal } Animal */
-
 /**
  * @param {Animal} foo
  * @param {string} bar
