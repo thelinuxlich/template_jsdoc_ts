@@ -8,7 +8,7 @@
   "scripts": {
     "test": "vitest",
     "test:once": "vitest run",
-    "check": "tsc -p jsconfig.json",
+    "check": "tsc -p jsconfig.json --maxNodeModuleJsDepth 0",
     "lint": "eslint src/**/*.{js,ts}",
     "build": "vite build -c vitest.config.js",
     "format": "prettier --write '**/*.{ts,js}'",

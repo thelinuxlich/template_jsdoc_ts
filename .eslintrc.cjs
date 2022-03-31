@@ -3,6 +3,7 @@ module.exports = {
   env: {
     es2021: true,
     node: true,
+    browser: true,
   },
   globals: {
     it: 'readonly',
@@ -31,6 +32,10 @@ module.exports = {
     'jsdoc/no-undefined-types': 0,
     '@typescript-eslint/no-unsafe-member-access': 'off',
     '@typescript-eslint/no-unsafe-call': 'off',
+    '@typescript-eslint/no-unsafe-assignment': 'off',
+    '@typescript-eslint/unbound-method': 'off',
+    '@typescript-eslint/no-floating-promises': 'off',
+    'typescript-eslint/await-thenable': 'off',
   },
   settings: {
     jsdoc: {
