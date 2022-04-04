@@ -6,6 +6,7 @@ Steps:
 - npm run docs
 - npm run test
 - npm run coverage
+- npm run type-coverage
 - npm run lint
 - npm run format
 

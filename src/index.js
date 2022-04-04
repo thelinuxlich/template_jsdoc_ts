@@ -1,10 +1,7 @@
 // @ts-check
-/**
- * @param {Animal} foo
- * @param {string} bar
- * @returns {string}
- */
-let bar = (foo, bar) => 'test'
+
+/** @type {(foo: Animal) => number} */
+let bar = foo => foo.hp
 
 /** @type {Animal} */
 let dog = {
@@ -12,7 +9,7 @@ let dog = {
   hp: 1,
 }
 
-export default dog
+export default { dog, bar }
 
 // in-source test suites
 if (import.meta.vitest) {

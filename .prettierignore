@@ -1,4 +1,5 @@
 docs
 coverage
+coverage-ts
 dist
 .husky
