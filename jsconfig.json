@@ -13,6 +13,7 @@
     "allowUnreachableCode": false,
     "maxNodeModuleJsDepth": 0,
     "isolatedModules": true,
+    "noPropertyAccessFromIndexSignature": true,
     "noUncheckedIndexedAccess": true,
     "types": ["vitest/globals", "vitest/importMeta"],
     "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */,
